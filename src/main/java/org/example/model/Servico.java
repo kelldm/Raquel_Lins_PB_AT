@@ -10,7 +10,7 @@ public class Servico extends Cliente {
     private double valor;
     private String avaliacao;
 
-    public Servico(String nome, String telefone, String email, int cpf) {
+    public Servico(String nome, String telefone, String email, String cpf) {
         super(nome, telefone, email, cpf);
     }
 
